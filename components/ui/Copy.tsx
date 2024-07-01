@@ -6,6 +6,8 @@ const Copy = ({ title } : { title : string }) => {
 
   const [hasCopied, setHasCopied] = useState(false);
 
+   console.log({title});
+
   const copyToClipboard = () => {
     navigator.clipboard.writeText(title);
     setHasCopied(true);
