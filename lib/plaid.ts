@@ -11,5 +11,5 @@ const configuration = new Configuration({
      }
 })
 
-export const plaidClient = new PlaidApi(Configuration);  
+export const plaidClient = new PlaidApi(configuration);  
 
