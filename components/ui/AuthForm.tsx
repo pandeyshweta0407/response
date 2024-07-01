@@ -93,7 +93,7 @@ const AuthForm = ({ type }: { type: string }) => {
             alt="Horizon logo"
           />
           <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">
-            Respnose
+            Response
           </h1>
         </Link>
 
